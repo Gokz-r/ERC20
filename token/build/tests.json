@@ -1,0 +1,82 @@
+{
+  "contracts": {
+    "SafeMath": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "Token": "cfbae728c4c8a803a6ab5cb705d1d59817020614"
+  },
+  "tests": {
+    "tests/test_approve.py": {
+      "coverage": false,
+      "isolated": [],
+      "results": "EEEEEEEEEEEE",
+      "sha1": "be1887ad0bdcccb8e38d18cd77520631272e4897",
+      "txhash": []
+    },
+    "tests/test_mint.py": {
+      "coverage": false,
+      "isolated": [
+        "SafeMath",
+        "Token"
+      ],
+      "results": "FFF",
+      "sha1": "2d329735f8f4598aa3e5407e83e18607c75d2fd9",
+      "txhash": [
+        "0183cec2852c2aa61c65668c1873b667fa1be048"
+      ]
+    },
+    "tests/test_mint0.py": {
+      "coverage": false,
+      "isolated": [
+        "SafeMath",
+        "Token"
+      ],
+      "results": "..F",
+      "sha1": "61b3e50402681516143ea148eb0e0cea56cb6e01",
+      "txhash": [
+        "0b04278ee2f111ff7712872ec80e641eea8bba14"
+      ]
+    },
+    "tests/test_transfer.py": {
+      "coverage": false,
+      "isolated": [],
+      "results": "EEEEEEEEE",
+      "sha1": "6e79b4d299d2a540d0eb5d56539a518607a361bf",
+      "txhash": []
+    },
+    "tests/test_transferFrom.py": {
+      "coverage": false,
+      "isolated": [],
+      "results": "EEEEEEEEEEEEEEEEE",
+      "sha1": "f51d8f9086017b4dc75a6e176c15e56f36d1ded4",
+      "txhash": []
+    }
+  },
+  "tx": {
+    "0183cec2852c2aa61c65668c1873b667fa1be048": {
+      "Token": {
+        "1": [
+          [
+            6
+          ],
+          [
+            33
+          ],
+          []
+        ]
+      }
+    },
+    "0b04278ee2f111ff7712872ec80e641eea8bba14": {
+      "Token": {
+        "1": [
+          [
+            13,
+            25
+          ],
+          [
+            35
+          ],
+          []
+        ]
+      }
+    }
+  }
+}
